@@ -1,6 +1,6 @@
 # Kubernetes
 
-
+<sub/>
 Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. Originally developed by Google and later donated to the Cloud Native Computing Foundation (CNCF), Kubernetes provides a robust framework for container orchestration, making it easier to deploy and manage applications at scale.
 
 ey features of Kubernetes include:
@@ -22,3 +22,5 @@ Service Discovery and Load Balancing: Kubernetes offers built-in mechanisms for 
 Resource Management: It allocates resources efficiently by allowing users to specify resource requirements and limits for containers.
 
 Kubernetes has become a cornerstone of cloud-native development and is widely adopted in modern software development environments, providing a scalable and flexible solution for managing containerized applications across diverse infrastructures.
+
+</sub>

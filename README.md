@@ -6,7 +6,7 @@ Kubernetes, often abbreviated as K8s, is an open-source container orchestration 
 <br/>
 </br>
 <sub/>
-Key features of Kubernetes include:
+Key features of Kubernetes include: </sub>
 
 <sub/>
 Container Orchestration: Kubernetes automates the deployment and scaling of containers, allowing developers to focus on building applications without worrying about the underlying infrastructure. </sub>

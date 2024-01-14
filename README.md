@@ -95,7 +95,16 @@ kubectl explain deployment.metadata.name
 </sub>
 
 
+Create a deployment
 
+
+
+<sub/>
+
+```
+vi deployments/auth.yaml
+```
+</sub>
 
 
 

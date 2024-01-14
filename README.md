@@ -50,11 +50,52 @@ Kubernetes has become a cornerstone of cloud-native development and is widely ad
 </br>
 
 <sub/>
+This repository provides practice in scaling and managing containers delivering common scenarios where multiple heterogeneous deployments are being used. </sub>
+
+<br/>
+</br>
+
+
+<sub/>
 
 ```
-gcloud container clusters create bootcamp \
+gcloud container clusters create myfirstcluster \
   --machine-type e2-small \
   --num-nodes 3 \
   --scopes "https://www.googleapis.com/auth/projecthosting,storage-rw"
 ```
 </sub>
+
+<br/>
+</br>
+
+<sub/>
+
+```
+kubectl explain deployment
+```
+</sub>
+
+
+
+<sub/>
+
+```
+kubectl explain deployment --recursive
+```
+</sub>
+
+
+
+<sub/>
+
+```
+kubectl explain deployment.metadata.name
+```
+</sub>
+
+
+
+
+
+

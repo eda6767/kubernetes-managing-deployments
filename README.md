@@ -95,7 +95,7 @@ kubectl explain deployment.metadata.name
 </sub>
 
 
-Create a deployment
+<sub/> Create a deployment </sub>
 
 
 
@@ -105,6 +105,53 @@ Create a deployment
 vi deployments/auth.yaml
 ```
 </sub>
+
+
+<sub/> We can change the image in the containers section of the deployment to the following: </sub>
+
+<sub/>
+
+```
+...
+containers:
+- name: auth
+  image: "kelseyhightower/auth:1.0.0"
+...
+```
+</sub>
+
+<sub/>  To save auth.yaml file press ESC and then :wq. To check whole yaml file type :  </sub>
+
+<sub/>
+
+```
+cat deployments/auth.yaml
+```
+</sub>
+
+
+<sub/>  Here we are creating one replica of the container.   </sub>
+
+
+<sub/>
+
+```
+kubectl create -f deployments/auth.yaml
+```
+</sub>
+
+
+<sub/>  Once we have created the deployment, we can verify that it was created:   </sub>
+
+<sub/>
+
+```
+kubectl get deployments
+```
+</sub>
+
+
+
 
 
 
